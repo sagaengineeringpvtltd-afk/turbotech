@@ -1,6 +1,30 @@
 'use client'
 
 import Image from 'next/image'
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "TurboTech | About Us - Power Tools & Engineering Solutions",
+  
+  description:
+    "Learn about TurboTech, a trusted supplier of power tools and industrial equipment in Sri Lanka, also specializing in custom lorry body design and manufacturing.",
+
+  keywords:
+    "about TurboTech, power tools Sri Lanka, industrial equipment suppliers, lorry body manufacturing Sri Lanka, engineering solutions",
+
+  openGraph: {
+    title: "About TurboTech",
+    description:
+      "TurboTech delivers reliable power tools and customized lorry body solutions for industrial and commercial needs.",
+    url: "https://www.turbotech.lk/#about",
+    siteName: "TurboTech",
+    type: "website",
+  },
+
+  alternates: {
+    canonical: "https://www.turbotech.lk/#about",
+  },
+};
 
 export default function About() {
   return (

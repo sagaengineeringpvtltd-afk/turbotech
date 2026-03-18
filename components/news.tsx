@@ -6,7 +6,37 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "TurboTech News | Latest Updates & Projects",
+
+  description:
+    "Stay updated with the latest news, projects, and announcements from TurboTech including custom lorry body designs, engineering solutions, and industry updates.",
+
+  keywords:
+    "TurboTech news, lorry body projects Sri Lanka, engineering news Sri Lanka, industrial updates, power tools news, TurboTech updates",
+
+  openGraph: {
+    title: "TurboTech Latest News",
+    description:
+      "Explore the latest updates, completed projects, and engineering innovations from TurboTech.",
+    url: "https://www.turbotech.lk/#news",
+    siteName: "TurboTech",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "TurboTech News",
+    description:
+      "Latest updates and project highlights from TurboTech.",
+  },
+
+  alternates: {
+    canonical: "https://www.turbotech.lk/#news",
+  },
+};
 
 type NewsItem = {
   title: string;

@@ -1,5 +1,35 @@
 'use client'
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Industries We Serve | TurboTech Sri Lanka",
+
+  description:
+    "TurboTech supports multiple industries including logistics, manufacturing, engineering, and industrial operations by providing reliable power tools and customized engineering solutions.",
+
+  keywords:
+    "industries we serve TurboTech, logistics tools Sri Lanka, manufacturing equipment suppliers, engineering tools Sri Lanka, industrial operations tools, import and distribution Sri Lanka",
+
+  openGraph: {
+    title: "Industries We Serve - TurboTech",
+    description:
+      "Discover how TurboTech supports logistics, manufacturing, engineering, and industrial sectors with reliable tools and solutions.",
+    url: "https://www.turbotech.lk/#industries",
+    siteName: "TurboTech",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Industries We Serve - TurboTech",
+    description:
+      "TurboTech delivers power tools and engineering solutions across multiple industries in Sri Lanka.",
+  },
+
+  alternates: {
+    canonical: "https://www.turbotech.lk/#industries",
+  },
+};
 export default function Industries() {
   const industries = [
     { name: 'Logistics & Transportation', icon: '🚛' },

@@ -150,7 +150,37 @@
 
 
 'use client'
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Contact TurboTech | Power Tools & Engineering Solutions",
+
+  description:
+    "Get in touch with TurboTech for high-quality power tools, industrial equipment, and custom lorry body solutions in Sri Lanka. Contact us for reliable service and support.",
+
+  keywords:
+    "contact TurboTech, power tools Sri Lanka contact, industrial tools supplier contact, lorry body manufacturing Sri Lanka, TurboTech phone number, Kahathuduwa Polgasowita business",
+
+  openGraph: {
+    title: "Contact TurboTech",
+    description:
+      "Reach out to TurboTech for power tools and custom engineering solutions. We are ready to support your business needs.",
+    url: "https://www.turbotech.lk/#contact",
+    siteName: "TurboTech",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact TurboTech",
+    description:
+      "Contact TurboTech for reliable power tools and engineering services in Sri Lanka.",
+  },
+
+  alternates: {
+    canonical: "https://www.turbotech.lk/#contact",
+  },
+};
 export default function Contact() {
   return (
     <section className="py-24 bg-white px-8" id="contact">

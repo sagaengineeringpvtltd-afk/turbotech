@@ -1,7 +1,37 @@
 'use client'
 
 import Image from "next/image";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "TurboTech Services | Power Tools & Lorry Body Solutions",
+
+  description:
+    "Explore TurboTech services including power tools importing, distribution, custom lorry body design, and repair & modification solutions in Sri Lanka.",
+
+  keywords:
+    "TurboTech services, power tools importing Sri Lanka, tool distribution, lorry body design Sri Lanka, lorry body repair, industrial tools supplier Sri Lanka",
+
+  openGraph: {
+    title: "TurboTech Core Services",
+    description:
+      "TurboTech offers power tools importing, distribution, and custom lorry body engineering solutions tailored for industrial needs.",
+    url: "https://www.turbotech.lk/#services",
+    siteName: "TurboTech",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "TurboTech Services",
+    description:
+      "Reliable power tools and custom lorry body solutions for businesses in Sri Lanka.",
+  },
+
+  alternates: {
+    canonical: "https://www.turbotech.lk/#services",
+  },
+};
 export default function Services() {
 
   const services = [

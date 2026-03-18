@@ -41,24 +41,19 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-white/10">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
+      <div className="container mx-auto px-6 h-16 flex justify-between items-center">
         <button onClick={() => handleScroll("home")} className="flex items-center gap-2 cursor-pointer">
           <Image src="/TurboTech.svg" alt="PD Engineering" width={150} height={150} />
         </button>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-8 text-white font-medium">
           <button onClick={() => handleScroll("about")} className="hover:text-[#B6FF00] transition-colors cursor-pointer ">About Us</button>
           <button onClick={() => handleScroll("services")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">Services</button>
           <button onClick={() => handleScroll("industries")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">Industries</button>
-                    {/* <button onClick={() => handleScroll("projects")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">Projects</button> */}
                               <button onClick={() => handleScroll("news")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">News</button>
-
 
         </nav>
 
-        {/* Contact Button (desktop) */}
         <button
           onClick={() => handleScroll("contact")}
           className="hidden md:flex bg-white text-[#0B110B] px-6 py-2 rounded-full font-bold items-center group hover:bg-[#B6FF00] hover:text-black transition-all"
@@ -69,19 +64,18 @@ export default function Header() {
           </svg>
         </button>
 
-        {/* Mobile Hamburger */}
         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white">
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
-      {/* Mobile Overlay */}
       <div
         className={`fixed inset-0 bg-black/70 z-30 transition-opacity ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`}
         onClick={() => setIsOpen(false)}
-      ></div>
+      >
+        
+      </div>
 
-      {/* Mobile Menu */}
 <div
   className={`fixed top-0 mt-15 right-0 w-full bg-black/90 h-96 text-white z-40 flex flex-col justify-center items-center space-y-6 transform transition-transform duration-300 ease-in-out ${
     isOpen ? "translate-x-0" : "translate-x-full"
@@ -90,7 +84,6 @@ export default function Header() {
         <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("about")}>About Us</button>
         <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("services")}>Services</button>
         <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("industries")}>Industries</button>
-        {/* <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("projects")}>Projects</button> */}
                 <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("news")}>News</button>
 
         <button
