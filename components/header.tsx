@@ -52,8 +52,9 @@ export default function Header() {
           <button onClick={() => handleScroll("about")} className="hover:text-[#B6FF00] transition-colors cursor-pointer ">About Us</button>
           <button onClick={() => handleScroll("services")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">Services</button>
           <button onClick={() => handleScroll("industries")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">Industries</button>
-          <button onClick={() => handleScroll("why-us")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">Why Choose Us</button>
-                    <button onClick={() => handleScroll("projects")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">Projects</button>
+                    {/* <button onClick={() => handleScroll("projects")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">Projects</button> */}
+                              <button onClick={() => handleScroll("news")} className="hover:text-[#B6FF00] transition-colors cursor-pointer">News</button>
+
 
         </nav>
 
@@ -89,8 +90,9 @@ export default function Header() {
         <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("about")}>About Us</button>
         <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("services")}>Services</button>
         <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("industries")}>Industries</button>
-        <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("why-us")}>Why Choose Us</button>
-        <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("projects")}>Projects</button>
+        {/* <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("projects")}>Projects</button> */}
+                <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("news")}>News</button>
+
         <button
           className="bg-[#B6FF00] text-black px-8 py-3 rounded-full font-bold mt-4 text-center"
           onClick={() => handleScroll("contact")}

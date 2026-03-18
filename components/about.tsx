@@ -29,10 +29,7 @@ export default function About() {
               </p>
             </div>
           </div>
-
-          {/* IMAGE SIDE */}
-          <div className="lg:w-1/2">
-            <div className="relative w-full h-[450px] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative w-full md:w-[52%] h-[450px] rounded-3xl overflow-hidden shadow-2xl ">
               <Image
                 src="/About TurboTech.svg"
                 alt="TurboTech machinery and engineering"
@@ -41,7 +38,7 @@ export default function About() {
                 priority
               />
             </div>
-          </div>
+
         </div>
 
         {/* VISION & MISSION */}

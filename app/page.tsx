@@ -9,6 +9,7 @@ import WhyChoose from '@/components/why-choose'
 import Contact from '@/components/contact'
 import Footer from '@/components/footer'
 import Projects from '@/components/projects'
+import News from '@/components/news'
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
       <Services />
       <Industries />
       <WhyChoose />
-      <Projects/>
+      {/* <Projects/> */}
+            <News />
       <Contact />
       <Footer />
     </main>
