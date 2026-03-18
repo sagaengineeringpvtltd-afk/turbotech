@@ -8,6 +8,7 @@ import Industries from '@/components/industries'
 import WhyChoose from '@/components/why-choose'
 import Contact from '@/components/contact'
 import Footer from '@/components/footer'
+import Projects from '@/components/projects'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Services />
       <Industries />
       <WhyChoose />
+      <Projects/>
       <Contact />
       <Footer />
     </main>
