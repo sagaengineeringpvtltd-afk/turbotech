@@ -64,7 +64,7 @@ export default function Header() {
           </svg>
         </button>
 
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white">
+        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white cursor-pointer z-50">
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
@@ -81,10 +81,10 @@ export default function Header() {
     isOpen ? "translate-x-0" : "translate-x-full"
   }`}
 >
-        <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("about")}>About Us</button>
-        <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("services")}>Services</button>
-        <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("industries")}>Industries</button>
-                <button className="text-xl hover:text-[#B6FF00] cursor-nwse-resize" onClick={() => handleScroll("news")}>News</button>
+        <button className="text-xl hover:text-[#B6FF00] cursor-pointer" onClick={() => handleScroll("about")}>About Us</button>
+        <button className="text-xl hover:text-[#B6FF00] cursor-pointer" onClick={() => handleScroll("services")}>Services</button>
+        <button className="text-xl hover:text-[#B6FF00] cursor-pointer" onClick={() => handleScroll("industries")}>Industries</button>
+                <button className="text-xl hover:text-[#B6FF00] cursor-pointer" onClick={() => handleScroll("news")}>News</button>
 
         <button
           className="bg-[#B6FF00] text-black px-8 py-3 rounded-full font-bold mt-4 text-center"
