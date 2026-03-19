@@ -2,7 +2,7 @@
 
 export default function WhyChoose() {
   return (
-    <section className="py-24 bg-black text-white px-8" id="why-us">
+    <section className="py-24 bg-black text-white px-0 md:px-8" id="why-us">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2">
@@ -32,25 +32,25 @@ export default function WhyChoose() {
               </div>
             </div>
           </div>
-<div className="lg:w-1/2 grid grid-cols-2 gap-4">
+<div className="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
   <div className="bg-white/5 p-8 rounded-3xl border border-white/10 text-center">
     <h4 className="text-xl font-bold mb-2">Professional Team</h4>
     <p className="text-xs text-gray-400">Experienced engineers and specialists.</p>
   </div>
 
-  <div className="bg-white/5 p-8 rounded-3xl border border-white/10 text-center mt-8">
+  <div className="bg-white/5 p-8 rounded-3xl border border-white/10 text-center">
     <h4 className="text-xl font-bold mb-2">Reliable Support</h4>
     <p className="text-xs text-gray-400">Committed customer service at every step.</p>
   </div>
 
-  <div className="bg-white/5 p-8 rounded-3xl border border-white/10 text-center mt-8">
+  <div className="bg-white/5 p-8 rounded-3xl border border-white/10 text-center">
     <h4 className="text-xl font-bold mb-2">24/7 Customer Support</h4>
-    <p className="text-xs text-gray-400">Always available to assist you with any inquiries or issues.</p>
+    <p className="text-xs text-gray-400">Always available to assist you.</p>
   </div>
 
-  <div className="bg-white/5 p-8 rounded-3xl border border-white/10 text-center mt-8">
+  <div className="bg-white/5 p-8 rounded-3xl border border-white/10 text-center">
     <h4 className="text-xl font-bold mb-2">Advanced Technology</h4>
-    <p className="text-xs text-gray-400">Utilizing cutting-edge tools and machinery for optimal performance.</p>
+    <p className="text-xs text-gray-400">Cutting-edge tools & machinery.</p>
   </div>
 </div>
         </div>

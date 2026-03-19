@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <section className="py-24 px-8 bg-white" id="about">
+    <section className="py-24 px-0 md:px-8 bg-white" id="about">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           

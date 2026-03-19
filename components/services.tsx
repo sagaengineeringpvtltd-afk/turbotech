@@ -58,7 +58,7 @@ export default function Services() {
   ]
 
   return (
-    <section className="py-24 bg-[#F3F4F6] px-8" id="services">
+    <section className="py-24 bg-[#F3F4F6] px-0 md:px-8" id="services">
       <div className="container mx-auto px-6">
 <div className="flex flex-col md:flex-row justify-between items-start mb-8 md:mb-16" >
   {/* Paragraph first on desktop, badge + heading second, but stacked on mobile */}
@@ -83,7 +83,7 @@ export default function Services() {
     {services.slice(0, 2).map((service, index) => (
       <div
         key={index}
-        className={`p-12 group hover:bg-[#B6FF00]/10 transition-colors ${service.border}`}
+        className={`p-8 md:p-12 group hover:bg-[#B6FF00]/10 transition-colors ${service.border}`}
       >
         <h4 className="text-white text-xl font-bold mb-4">{service.title}</h4>
         <p className="text-gray-400 text-sm">{service.desc}</p>
@@ -107,7 +107,7 @@ export default function Services() {
     {services.slice(2).map((service, index) => (
       <div
         key={index}
-        className={`p-12 group hover:bg-[#B6FF00]/10 transition-colors ${service.border}`}
+        className={`p-8 md:p-12 group hover:bg-[#B6FF00]/10 transition-colors ${service.border}`}
       >
         <h4 className="text-white text-xl font-bold mb-4">{service.title}</h4>
         <p className="text-gray-400 text-sm">{service.desc}</p>

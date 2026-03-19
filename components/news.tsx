@@ -64,7 +64,7 @@ const newsData: NewsItem[] = [
 
 export default function NewsSlider() {
   return (
-    <section className=" bg-[#f8f8f8] py-24 px-6 mt-16 " id="news">
+    <section className=" bg-[#f8f8f8] py-24 px-0 md:px-8 mt-16 " id="news">
       <div className="container mx-auto max-w-4xl -mt-4">
 <div className="flex justify-center mb-4">
   <span className="bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">

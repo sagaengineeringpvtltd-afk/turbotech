@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description: 'Powering productivity with quality machinery and industrial tools. 25+ years of excellence in machinery importing, distribution, and custom engineering.',
 
   keywords:
-    "power tools Sri Lanka, industrial tools, tool suppliers, TurboTech, lorry body manufacturing, custom truck body, engineering solutions, tool distribution, workshops equipment Sri Lanka, construction tools",
+    "power tools Sri Lanka, industrial tools, tool suppliers, TurboTech, lorry body manufacturing, custom truck body, engineering solutions, tool distribution, workshops equipment Sri Lanka, construction tools, turbotech, turbo tech",
 
   authors: [{ name: "TurboTech" }],
   creator: "TurboTech",

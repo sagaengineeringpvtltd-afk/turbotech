@@ -183,7 +183,7 @@ export const metadata: Metadata = {
 };
 export default function Contact() {
   return (
-    <section className="py-24 bg-white px-8" id="contact">
+    <section className="py-24 bg-white px-0 md:px-8" id="contact">
       <div className="container mx-auto px-6">
 
 
