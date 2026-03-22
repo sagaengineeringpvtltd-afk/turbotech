@@ -78,7 +78,8 @@ function addOrganizationJsonLd() {
         "@type": "PostalAddress",
         "streetAddress": "8/A, Kahathuduwa",
         "addressLocality": "Polgasowita",
-        "addressCountry": "LK"
+        "addressCountry": "LK",
+        postalCode: "10320"
       }
     }`,
   };
@@ -168,6 +169,7 @@ export default function RootLayout({
         streetAddress: "8/A, Kahathuduwa",
         addressLocality: "Polgasowita",
         addressCountry: "LK",
+        postalCode: "10320"
       },
       // optional (add later if available)
       // sameAs: [
