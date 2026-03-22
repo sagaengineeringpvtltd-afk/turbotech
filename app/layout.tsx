@@ -79,7 +79,7 @@ function addOrganizationJsonLd() {
         "streetAddress": "8/A, Kahathuduwa",
         "addressLocality": "Polgasowita",
         "addressCountry": "LK",
-        postalCode: "10320"
+        "postalCode": "10320"
       }
     }`,
   };
