@@ -25,7 +25,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-          TurboTech is a trusted importer and distributor of high-quality machinery and industrial tools. We also specialize in custom lorry body design and manufacturing to support transportation and industrial operations.
+          TurboTech is a trusted importer and distributor of high-quality machineries, accessories and industrial tools. TurboTech also provide comprehensive engineering solutions for both industrial & commercial projects from design stage till completion.
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">

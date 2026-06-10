@@ -64,7 +64,7 @@ export default function Services() {
   {/* Paragraph first on desktop, badge + heading second, but stacked on mobile */}
   <div className="order-2 md:order-1 md:w-1/2 text-left mb-6 md:mb-0">
     <p className="text-gray-500 max-w-md">
-      At TurboTech, we are committed to delivering reliable power tools and engineering solutions that help businesses improve efficiency and productivity.
+      At TurboTech, we are committed to delivering engineering solutions that help businesses improve efficiency and productivity.
     </p>
   </div>
 

@@ -32,11 +32,13 @@ export const metadata: Metadata = {
 };
 export default function Industries() {
   const industries = [
-    { name: 'Logistics & Transportation', icon: '🚛' },
-    { name: 'Import', icon: '📦' },
+    
+    { name: 'Engineering Solutions', icon: '⚙️' },
+    { name: 'Importing Machines, Materials and Accessories', icon: '📦' },
     { name: 'Manufacturing', icon: '🏭' },
-    { name: 'Engineering', icon: '⚙️' },
-    { name: 'Industrial Operations', icon: '🛠️' }
+    { name: 'Maintenance', icon: '🛠️' },
+    { name: 'Interior design and build services', icon: '🛋️' },
+    { name: 'Logistics & Transportation', icon: '🚛' },
   ]
 
   return (
@@ -46,7 +48,7 @@ export default function Industries() {
           <span className="bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider"># Markets</span>
           <h2 className="text-4xl font-bold mt-4">Industries We Serve</h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
           {industries.map((industry, index) => (
             <div key={index} className="bg-[#F3F4F6] p-8 rounded-2xl text-center group hover:bg-[#B6FF00] transition-all">
               <div className="text-3xl mb-4">{industry.icon}</div>
