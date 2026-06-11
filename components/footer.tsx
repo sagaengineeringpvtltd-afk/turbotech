@@ -27,10 +27,12 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4 text-[#B6FF00]">Core Services</h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#services" className="hover:text-white transition-colors">Machinery Importing</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Distribution</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Custom Design</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Manufacturing</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Import & Supply Machines, Equipment & Accessories</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Product Design & Manufacturing</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Interior Design & Build Services</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Machine Installation Services</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Maintenance Support</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Project Management</a></li>
             </ul>
           </div>
           <div>
@@ -40,12 +42,12 @@ export default function Footer() {
   {/* Phone → WhatsApp */}
   <li>
     <a
-      href="https://wa.me/94743022963"
+      href="https://wa.me/94775331215"
       target="_blank"
       className="flex items-center gap-3 hover:text-white transition-colors"
     >
       <FaPhoneAlt className="text-[#B6FF00]" />
-      +94-74-302-2963
+      +94-77-533-1215
     </a>
   </li>
 
@@ -61,16 +63,16 @@ export default function Footer() {
   </li>
 
   {/* Location → Google Maps */}
-  <li>
-    <a
-      href="https://www.google.com/maps?q=8/A, Kahathuduwa, Polgasowita, Sri Lanka"
-      target="_blank"
-      className="flex items-center gap-3 hover:text-white transition-colors"
-    >
-      <FaMapMarkerAlt className="text-[#B6FF00]" />
-      8/A, Kahathuduwa, Polgasowita, Sri Lanka
-    </a>
-  </li>
+<li>
+  <a
+    href="https://www.google.com/maps?q=No.158/6C,+Kaduwela+Road,+Athurugiriya,+Sri+Lanka"
+    target="_blank"
+    className="flex items-center gap-3 hover:text-white transition-colors"
+  >
+    <FaMapMarkerAlt className="text-[#B6FF00]" />
+    No.158/6C, Kaduwela Road, Athurugiriya, Sri Lanka
+  </a>
+</li>
 
 </ul>
           </div>

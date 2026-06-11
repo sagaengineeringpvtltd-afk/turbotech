@@ -199,7 +199,7 @@ export default function Contact() {
   {/* Right Side: Paragraph */}
   <div className="w-full md:w-1/2 lg:w-max text-left md:text-right mt-6 md:mt-0">
     <p className="text-gray-500 max-w-md">
-If you are looking for reliable machinery, industrial tools, or customized lorry body solutions, TurboTech is ready to support your business.    </p>
+If you are looking for reliable machinery, industrial tools, or professional interior design solutions, TurboTech is ready to support your business.    </p>
   </div>
 </div>
 
@@ -207,7 +207,7 @@ If you are looking for reliable machinery, industrial tools, or customized lorry
           {/* Left Side: Full Map */}
           <div className="lg:w-2/3 w-full h-[600px] lg:h-auto relative">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31695.088556818424!2d79.95834581650371!3d6.783717162777164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24e64039273f7%3A0x451692d370fd2e51!2sKahathuduwa!5e0!3m2!1sen!2slk!4v1773833691562!5m2!1sen!2slk"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8919921879883!2d79.9588431!3d6.903518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2572b83ff6769%3A0xda93206832f3aae0!2s158%2C%206%20Kaduwela%20Rd%2C%20Sri%20Jayawardenepura%20Kotte!5e0!3m2!1sen!2slk!4v1781080428984!5m2!1sen!2slk"
               className="w-full h-full object-cover"
               allowFullScreen
               loading="lazy"
@@ -226,7 +226,7 @@ If you are looking for reliable machinery, industrial tools, or customized lorry
                     <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
                   </svg>
                 </div>
-                <span className="text-gray-300 text-sm">+94-74-302-2963</span>
+                <span className="text-gray-300 text-sm">+94-77-533-1215</span>
               </div>
 
               <div className="flex items-center space-x-4">
@@ -245,7 +245,7 @@ If you are looking for reliable machinery, industrial tools, or customized lorry
                     <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
                   </svg>
                 </div>
-                <span className="text-gray-300 text-sm">8/A, Kahathuduwa, Polgasowita <br /> Sri Lanka</span>
+                <span className="text-gray-300 text-sm">No.158/6C, Kaduwela Road, Athurugiriya <br /> Sri Lanka</span>
               </div>
             </div>
 

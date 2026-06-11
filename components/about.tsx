@@ -34,9 +34,9 @@ export default function About() {
           
           {/* TEXT SIDE */}
           <div className="lg:w-1/2">
-            <span className="bg-[#B6FF00] text-[#000000] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-              # Who We Are
-            </span>
+            <span className="bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+  # Who We Are
+</span>
 
             <h2 className="text-4xl font-bold mt-6 mb-8">
               Empowering a Sustainable <br />
@@ -46,10 +46,10 @@ export default function About() {
 
             <div className="space-y-6 text-gray-600 leading-relaxed">
               <p>
-                TurboTech is a trusted importer and distributor of high-quality power tools and industrial equipment, dedicated to enhancing productivity and efficiency in professional and industrial environments.
+                TurboTech is a trusted importer and distributor of high-quality machineries, accessories and industrial tools. TurboTech also provide comprehensive engineering solutions for both industrial & commercial projects from design stage till completion.
               </p>
               <p>
-                We partner with reliable international manufacturers to deliver products that meet high standards of performance, durability, and reliability. In addition to power tools, TurboTech specializes in custom lorry body design and manufacturing, providing practical and durable solutions tailored to transportation and logistics needs.
+                We partner with reliable international manufacturers to deliver products that meet high standards of performance and durability. In addition to this, TurboTech provides comprehensive engineering solutions, including product design, machinery installation, maintenance support, and undertaking all interior design & furniture manufacturing to deliver complete, end-to-end solutions to meet customer expectation
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ export default function About() {
               <ul className="space-y-4 text-gray-600 leading-relaxed">
                 <li className="flex items-start">
                   <span className="text-[#B6FF00] mr-2">✔</span>
-                  Deliver high-quality power tools that enhance productivity.
+                   Provide innovative engineering solutions and interior design services to deliver complete, end-to-end project support.
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#B6FF00] mr-2">✔</span>
@@ -107,6 +107,7 @@ export default function About() {
                   <span className="text-[#B6FF00] mr-2">✔</span>
                   Continuously improve service and engineering solutions.
                 </li>
+                
               </ul>
 
             </div>
