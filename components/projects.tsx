@@ -23,7 +23,7 @@ export default function Projects() {
 <div className="flex flex-col md:flex-row justify-between items-start mb-16">
   {/* Left Side: Badge + Heading */}
   <div className="w-full md:w-1/2 text-left">
-    <span className="bg-[#B6FF00] text-[#000000] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+    <span className="inline-block bg-[#B6FF00] text-[#000000] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider animate-soft-bounce">
       # Our Work
     </span>
     <h2 className="text-4xl font-bold mt-4">Projects We’ve Delivered</h2>

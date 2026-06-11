@@ -6,7 +6,7 @@ export default function WhyChoose() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2">
-            <span className="bg-[#B6FF00] text-[#000000] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider"># Excellence</span>
+            <span className="inline-block bg-[#B6FF00] text-[#000000] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider animate-soft-bounce"># Excellence</span>
             <h2 className="text-4xl font-bold mt-6 mb-8">Why Choose <span className="text-[#B6FF00]">TurboTech</span></h2>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">

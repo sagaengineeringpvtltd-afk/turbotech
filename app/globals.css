@@ -76,15 +76,33 @@
 
 @layer utilities {
   .bg-hero-overlay {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://placehold.co/1920x1080/222/555?text=Industrial+Machinery');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://placehold.co/1920x1080/222/555?text=Industrial+Machinery');
     background-size: cover;
     background-position: center;
   }
+
   .service-bg {
-    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://placehold.co/1200x800/111/444?text=Engineering+Excellence');
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('https://placehold.co/1200x800/111/444?text=Engineering+Excellence');
     background-size: cover;
     background-position: center;
   }
+}
+
+@keyframes soft-bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-soft-bounce {
+  display: inline-block;
+  animation: soft-bounce 2s ease-in-out infinite;
 }
 
 @theme inline {
@@ -132,6 +150,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
