@@ -45,7 +45,7 @@ export default function Industries() {
     <section className="py-24 bg-white px-0 md:px-8" id="industries">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <span className="bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider"># Markets</span>
+          <span className="inline-block bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider animate-soft-bounce"># Markets</span>
           <h2 className="text-4xl font-bold mt-4">Industries We Serve</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8">
