@@ -59,11 +59,11 @@ const services: ServiceCard[] = [
     description:
       "TurboTech imports high-quality power tools from trusted global manufacturers, ensuring reliable performance and durability for professional use across workshops, businesses, and industrial sectors.",
     smallImages: [
-      { src: "/core services2.svg", alt: "Power tools close-up" },
-      { src: "/core services2.svg", alt: "Industrial power tool in use" },
+      { src: "/power tool01.jpg", alt: "Power tools close-up" },
+      { src: "/power tool02.jpg", alt: "Industrial power tool in use" },
     ],
     largeImages: [
-      { src: "/power tool02.jpg", alt: "Power tool distribution showcase" },
+      { src: "/power tool04.jpeg", alt: "Power tool distribution showcase" },
       { src: "/power tool03.jpg", alt: "Power tools — drills, saws and more from TurboTech" },
     ],
   },
