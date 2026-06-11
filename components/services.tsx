@@ -5,13 +5,10 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "TurboTech Services | Power Tools & Lorry Body Solutions",
-
   description:
     "Explore TurboTech services including power tools importing, distribution, custom lorry body design, and repair & modification solutions in Sri Lanka.",
-
   keywords:
     "TurboTech services, power tools importing Sri Lanka, tool distribution, lorry body design Sri Lanka, lorry body repair, industrial tools supplier Sri Lanka",
-
   openGraph: {
     title: "TurboTech Core Services",
     description:
@@ -20,104 +17,156 @@ export const metadata: Metadata = {
     siteName: "TurboTech",
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
     title: "TurboTech Services",
     description:
       "Reliable power tools and custom lorry body solutions for businesses in Sri Lanka.",
   },
-
   alternates: {
     canonical: "https://www.turbotech.lk/#services",
   },
 };
+
+// ─── Data ──────
+
+interface ServiceCard {
+  id: string;
+  title: string;
+  description: string;
+  smallImages: { src: string; alt: string }[];
+  largeImages: { src: string; alt: string }[];
+}
+
+const services: ServiceCard[] = [
+  {
+    id: "01",
+    title: "Interior design & build services for industrial and commercial projects",
+    description:
+      "Our Interior design & build services for industrial and commercial projects. In prominent industrial commercial projects, and brand mable solutions design, and solution and creative professional use.",
+    smallImages: [
+      { src: "/Interior01.jpeg", alt: "Industrial interior design project" },
+      { src: "/Interior02.jpeg", alt: "Commercial interior build" },
+    ],
+    largeImages: [
+      { src: "/Interior03.jpeg", alt: "Industrial workspace interior" },
+      { src: "/Interior04.jpeg", alt: "Commercial build showcase" },
+    ],
+  },
+  {
+    id: "02",
+    title: "Power tools importing and distribution",
+    description:
+      "TurboTech imports high-quality power tools from trusted global manufacturers, ensuring reliable performance and durability for professional use across workshops, businesses, and industrial sectors.",
+    smallImages: [
+      { src: "/core services2.svg", alt: "Power tools close-up" },
+      { src: "/core services2.svg", alt: "Industrial power tool in use" },
+    ],
+    largeImages: [
+      { src: "/power tool02.jpg", alt: "Power tool distribution showcase" },
+      { src: "/power tool03.jpg", alt: "Power tools — drills, saws and more from TurboTech" },
+    ],
+  },
+];
+
+// ─── Section ──────────────────────────────────────────────────────────────────
+
 export default function Services() {
 
-  const services = [
-    {
-      title: "Power Tools Importing",
-      desc: "TurboTech imports high-quality power tools from trusted global manufacturers, ensuring reliable performance and durability for professional use.",
-      border: "border-b border-r border-white/10"
-    },
-    {
-      title: "Power Tools Distribution",
-      desc: "We provide efficient distribution of power tools, ensuring timely delivery to businesses, workshops, and industrial sectors.",
-      border: "border-b border-white/10"
-    },
-    {
-      title: "Custom Lorry Body Design",
-      desc: "Our engineering team designs custom lorry bodies tailored to meet specific transportation and operational requirements.",
-      border: "border-r border-white/10"
-    },
-    {
-      title: "Lorry Body Repair & Modification",
-      desc: "We provide repair and modification services for lorry bodies, ensuring improved functionality, durability, and extended service life based on operational needs.",
-      border: ""
-    }
-  ]
+  function ServiceCard({ card }: { card: ServiceCard }) {
+    return (
+      <div className="relative bg-[#111111] rounded-3xl overflow-hidden flex flex-col p-7 sm:p-9 min-h-[480px] group transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl">
+
+        {/* Heading */}
+        <div className="mb-5">
+          <h3 className="text-white text-lg sm:text-xl font-bold leading-snug">
+            {card.title}
+          </h3>
+        </div>
+
+        {/* Description + small image grid */}
+        <div className="flex flex-col sm:flex-row gap-6 mb-6">
+          <div className="sm:w-1/2">
+            <p className="text-gray-400 text-sm leading-relaxed">
+              {card.description}
+            </p>
+          </div>
+
+          <div className="sm:w-1/2 grid grid-cols-2 gap-2">
+            {card.smallImages.map((img) => (
+              <div key={img.src} className="rounded-xl overflow-hidden h-24 sm:h-28">
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  width={200}
+                  height={150}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Bottom large image strip */}
+        <div className="grid grid-cols-2 gap-2 md:gap-4 mt-auto">
+          {card.largeImages.map((img) => (
+            <div key={img.src} className="rounded-xl overflow-hidden h-24 sm:h-44">
+              <Image
+                src={img.src}
+                alt={img.alt}
+                width={400}
+                height={250}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ))}
+        </div>
+
+        {/* Subtle accent glow */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-white/10 group-hover:ring-[#B6FF00]/30 transition-all duration-300"
+        />
+      </div>
+    );
+  }
 
   return (
-    <section className="py-24 bg-[#F3F4F6] px-0 md:px-8" id="services">
-      <div className="container mx-auto px-6">
-<div className="flex flex-col md:flex-row justify-between items-start mb-8 md:mb-16" >
-  {/* Paragraph first on desktop, badge + heading second, but stacked on mobile */}
-  <div className="order-2 md:order-1 md:w-1/2 text-left mb-6 md:mb-0">
-    <p className="text-gray-500 max-w-md">
-      At TurboTech, we are committed to delivering engineering solutions that help businesses improve efficiency and productivity.
-    </p>
-  </div>
+    <section
+      className="py-20 bg-[#F3F4F6] px-4 sm:px-6 lg:px-8"
+      id="services"
+      aria-label="Core Services"
+    >
+      <div className="container mx-auto px-2 md:px-6">
 
-  {/* Badge + Heading */}
-  <div className="order-1 md:order-2 md:w-1/2 text-left md:text-right mb-6 md:mb-0">
-    <span className="bg-[#B6FF00] text-[#000000] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-      # Core Services
-    </span>
-    <h2 className="text-4xl font-bold mt-4">Our Core Services</h2>
-  </div>
-</div>
+        {/* Header Row */}
+        <div className="flex flex-col md:flex-row justify-between items-start mb-10 md:mb-14 gap-6">
+          <div className="md:w-1/2">
+            <p className="text-gray-500 max-w-sm leading-relaxed text-sm md:text-base">
+              At TurboTech, we are committed to delivering engineering
+              solutions that help businesses improve efficiency and
+              productivity.
+            </p>
+          </div>
 
-<div className="service-bg rounded-3xl overflow-hidden grid grid-cols-1 md:grid-cols-3">
-  
-  <div className="flex flex-col">
-    {services.slice(0, 2).map((service, index) => (
-      <div
-        key={index}
-        className={`p-8 md:p-12 group hover:bg-[#B6FF00]/10 transition-colors ${service.border}`}
-      >
-        <h4 className="text-white text-xl font-bold mb-4">{service.title}</h4>
-        <p className="text-gray-400 text-sm">{service.desc}</p>
-      </div>
-    ))}
-  </div>
+          <div className="md:w-1/2 text-left md:text-right">
+            <span className="inline-block bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+              # Core Services
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-extrabold mt-3 text-gray-900">
+              Our Core Services
+            </h2>
+          </div>
+        </div>
 
-  <div className="hidden md:flex justify-center items-stretch">
-    <div className="flex items-stretch">
-      <Image
-        src="/core services2.svg" 
-        alt="Divider"
-        width={500} 
-        height={1000} 
-        className="h-full object-cover grayscale"
-      />
-    </div>
-  </div>
-
-  <div className="flex flex-col">
-    {services.slice(2).map((service, index) => (
-      <div
-        key={index}
-        className={`p-8 md:p-12 group hover:bg-[#B6FF00]/10 transition-colors ${service.border}`}
-      >
-        <h4 className="text-white text-xl font-bold mb-4">{service.title}</h4>
-        <p className="text-gray-400 text-sm">{service.desc}</p>
-      </div>
-    ))}
-  </div>
-
-</div>
+        {/* Cards Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          {services.map((card) => (
+            <ServiceCard key={card.id} card={card} />
+          ))}
+        </div>
 
       </div>
     </section>
-  )
+  );
 }
