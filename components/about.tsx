@@ -34,9 +34,9 @@ export default function About() {
           
           {/* TEXT SIDE */}
           <div className="lg:w-1/2">
-            <span className="bg-[#B6FF00] text-[#000000] px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-              # Who We Are
-            </span>
+            <span className="bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+  # Who We Are
+</span>
 
             <h2 className="text-4xl font-bold mt-6 mb-8">
               Empowering a Sustainable <br />

@@ -48,7 +48,7 @@ export default function Industries() {
           <span className="bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider"># Markets</span>
           <h2 className="text-4xl font-bold mt-4">Industries We Serve</h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8">
           {industries.map((industry, index) => (
             <div key={index} className="bg-[#F3F4F6] p-8 rounded-2xl text-center group hover:bg-[#B6FF00] transition-all">
               <div className="text-3xl mb-4">{industry.icon}</div>

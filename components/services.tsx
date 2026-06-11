@@ -41,7 +41,7 @@ interface ServiceCard {
 const services: ServiceCard[] = [
   {
     id: "01",
-    title: "Interior design & build services for industrial and commercial projects",
+    title: "Interior Design & Build Services for Industrial and Commercial Projects",
     description:
       "Our Interior design & build services for industrial and commercial projects. In prominent industrial commercial projects, and brand mable solutions design, and solution and creative professional use.",
     smallImages: [
@@ -55,7 +55,7 @@ const services: ServiceCard[] = [
   },
   {
     id: "02",
-    title: "Power tools importing and distribution",
+    title: "Power Tools Importing and Distribution",
     description:
       "TurboTech imports high-quality power tools from trusted global manufacturers, ensuring reliable performance and durability for professional use across workshops, businesses, and industrial sectors.",
     smallImages: [
@@ -75,7 +75,7 @@ export default function Services() {
 
   function ServiceCard({ card }: { card: ServiceCard }) {
     return (
-      <div className="relative bg-[#111111] rounded-3xl overflow-hidden flex flex-col p-7 sm:p-9 min-h-[480px] group transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl">
+      <div className="relative bg-[#111111] rounded-3xl overflow-hidden flex flex-col p-7 sm:p-9 group transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl">
 
         {/* Heading */}
         <div className="mb-5">
@@ -87,20 +87,20 @@ export default function Services() {
         {/* Description + small image grid */}
         <div className="flex flex-col sm:flex-row gap-6 mb-6">
           <div className="sm:w-1/2">
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-gray-400 text-sm leading-relaxed text-justify">
               {card.description}
             </p>
           </div>
 
           <div className="sm:w-1/2 grid grid-cols-2 gap-2">
-            {card.smallImages.map((img) => (
-              <div key={img.src} className="rounded-xl overflow-hidden h-24 sm:h-28">
+            {card.smallImages.map((img, index) => (
+              <div key={`${img.src}-${index}`} className="rounded-xl overflow-hidden h-24 sm:h-28">
                 <Image
                   src={img.src}
                   alt={img.alt}
                   width={200}
                   height={150}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover "
                 />
               </div>
             ))}
@@ -109,14 +109,14 @@ export default function Services() {
 
         {/* Bottom large image strip */}
         <div className="grid grid-cols-2 gap-2 md:gap-4 mt-auto">
-          {card.largeImages.map((img) => (
-            <div key={img.src} className="rounded-xl overflow-hidden h-24 sm:h-44">
+          {card.largeImages.map((img, index) => (
+            <div key={`${img.src}-${index}`} className="rounded-xl overflow-hidden h-24 sm:h-44">
               <Image
                 src={img.src}
                 alt={img.alt}
                 width={400}
                 height={250}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill"
               />
             </div>
           ))}
@@ -150,7 +150,7 @@ export default function Services() {
           </div>
 
           <div className="md:w-1/2 text-left md:text-right">
-            <span className="inline-block bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">
+            <span className="inline-block bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest animate-soft-bounce">
               # Core Services
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold mt-3 text-gray-900">
