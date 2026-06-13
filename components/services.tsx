@@ -140,24 +140,24 @@ export default function Services() {
       <div className="container mx-auto px-2 md:px-6">
 
         {/* Header Row */}
-        <div className="flex flex-col md:flex-row justify-between items-start mb-10 md:mb-14 gap-6">
-          <div className="md:w-1/2">
-            <p className="text-gray-500 max-w-sm leading-relaxed text-sm md:text-base">
-              At TurboTech, we are committed to delivering engineering
-              solutions that help businesses improve efficiency and
-              productivity.
-            </p>
-          </div>
+<div className="flex flex-col md:flex-row justify-between items-start mb-10 md:mb-14 gap-6">
+  <div className="md:w-1/2 order-2 md:order-1">
+    <p className="text-gray-500 max-w-sm leading-relaxed text-sm md:text-base max-md:text-justify">
+      At TurboTech, we are committed to delivering engineering
+      solutions that help businesses improve efficiency and
+      productivity.
+    </p>
+  </div>
 
-          <div className="md:w-1/2 text-left md:text-right">
-            <span className="inline-block bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest animate-soft-bounce">
-              # Core Services
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold mt-3 text-gray-900">
-              Our Core Services
-            </h2>
-          </div>
-        </div>
+  <div className="md:w-1/2 text-left md:text-right order-1 md:order-2">
+    <span className="inline-block bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest animate-soft-bounce">
+      # Core Services
+    </span>
+    <h2 className="text-3xl sm:text-4xl font-extrabold mt-3 text-gray-900">
+      Our Core Services
+    </h2>
+  </div>
+</div>
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">

@@ -12,14 +12,14 @@ export default function WhyChoose() {
               <div className="flex items-start space-x-4">
                 <div className="bg-[#B6FF00]/20 p-3 rounded-lg"><svg className="w-6 h-6 text-[#B6FF00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a１ １ ０ ００－１－１Ｈ４ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ Ａ２ ＩＮＴＥＲＮＡＬＩＺＥＤ" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path></svg></div>
                 <div>
-                  <h4 className="text-xl font-bold">Custom engineering solutions</h4>
+                  <h4 className="text-xl font-bold">Custom Engineering Solutions</h4>
                   <p className="text-gray-400 text-sm">Tailored specifically to your business needs.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="bg-[#B6FF00]/20 p-3 rounded-lg"><svg className="w-6 h-6 text-[#B6FF00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path></svg></div>
                 <div>
-                  <h4 className="text-xl font-bold">Imported High-Quality Machineries & Accessories.</h4>
+                  <h4 className="text-xl font-bold">Imported High-Quality Machineries & Accessories</h4>
                   <p className="text-gray-400 text-sm">Sourced from globally recognized manufacturers.</p>
                 </div>
               </div>
@@ -27,7 +27,7 @@ export default function WhyChoose() {
               <div className="flex items-start space-x-4">
                 <div className="bg-[#B6FF00]/20 p-3 rounded-lg"><svg className="w-6 h-6 text-[#B6FF00]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path></svg></div>
                 <div>
-                  <h4 className="text-xl font-bold">Interior Design Services.</h4>
+                  <h4 className="text-xl font-bold">Interior Design Services</h4>
                   <p className="text-gray-400 text-sm">Functional and modern interior design solutions.</p>
                 </div>
               </div>
