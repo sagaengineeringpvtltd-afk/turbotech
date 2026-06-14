@@ -153,18 +153,18 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact TurboTech | Power Tools & Engineering Solutions",
+  title: "Contact TurboTech | Power Tools, Industrial Equipment & Interior Design",
 
   description:
-    "Get in touch with TurboTech for high-quality power tools, industrial equipment, and custom lorry body solutions in Sri Lanka. Contact us for reliable service and support.",
+    "Get in touch with TurboTech for high-quality power tools, industrial equipment, and professional interior design solutions in Sri Lanka. Contact us for reliable service and support.",
 
   keywords:
-    "contact TurboTech, power tools Sri Lanka contact, industrial tools supplier contact, lorry body manufacturing Sri Lanka, TurboTech phone number, Kahathuduwa Polgasowita business",
+    "contact TurboTech, power tools Sri Lanka contact, industrial tools supplier contact, interior design Sri Lanka, commercial design services, TurboTech phone number, Athurugiriya business",
 
   openGraph: {
-    title: "Contact TurboTech",
+    title: "Contact TurboTech | Power Tools & Interior Design",
     description:
-      "Reach out to TurboTech for power tools and custom engineering solutions. We are ready to support your business needs.",
+      "Reach out to TurboTech for power tools, industrial equipment, and professional interior design solutions. We are ready to support your business needs.",
     url: "https://www.turbotech.lk/#contact",
     siteName: "TurboTech",
     type: "website",
@@ -174,7 +174,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact TurboTech",
     description:
-      "Contact TurboTech for reliable power tools and engineering services in Sri Lanka.",
+      "Contact TurboTech for power tools, industrial equipment, and professional interior design services in Sri Lanka.",
   },
 
   alternates: {

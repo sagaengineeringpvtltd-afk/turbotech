@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'TurboTech | Quality Machinery & Custom Engineering',
+  title: 'TurboTech | Power Tools, Industrial Equipment & Interior Design',
   
   other: {
     site_name: "TurboTech"
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     ],
   },
 
-  description: 'Powering productivity with quality machinery and industrial tools. 25+ years of excellence in machinery importing, distribution, and custom engineering.',
+  description: 'Powering productivity with quality machinery, industrial tools, and professional interior design solutions. 25+ years of excellence in machinery importing, distribution, and custom design services.',
 
   keywords:
-    "power tools Sri Lanka, industrial tools, tool suppliers, TurboTech, lorry body manufacturing, custom truck body, engineering solutions, tool distribution, workshops equipment Sri Lanka, construction tools, turbotech, turbo tech",
+    "power tools Sri Lanka, industrial tools, tool suppliers, TurboTech, interior design Sri Lanka, commercial design, engineering solutions, tool distribution, workshops equipment Sri Lanka, construction tools, turbotech",
 
   authors: [{ name: "TurboTech" }],
   creator: "TurboTech",
@@ -36,17 +36,17 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.turbotech.lk/",
-    title: "TurboTech | Power Tools & Engineering Solutions",
+    title: "TurboTech | Power Tools, Industrial Equipment & Interior Design",
     description:
-      "TurboTech supplies high-quality power tools and provides custom lorry body design and manufacturing solutions in Sri Lanka.",
+      "TurboTech supplies high-quality power tools, industrial equipment, and provides professional interior design and build solutions in Sri Lanka.",
     siteName: "TurboTech",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "TurboTech | Power Tools & Engineering Solutions",
+    title: "TurboTech | Power Tools, Industrial Equipment & Interior Design",
     description:
-      "Reliable power tools supplier and custom lorry body manufacturer in Sri Lanka.",
+      "Reliable power tools supplier and professional interior design services in Sri Lanka.",
   },
 
   verification: {
@@ -65,21 +65,20 @@ function addOrganizationJsonLd() {
       "@type": "Organization",
       "name": "TurboTech",
       "alternateName": "TurboTech",
-      "description": "TurboTech is a trusted importer and distributor of high-quality power tools and industrial equipment, also specializing in custom lorry body design and manufacturing.",
+      "description": "TurboTech is a trusted importer and distributor of high-quality power tools and industrial equipment, also specializing in professional interior design and custom build solutions.",
       "url": "https://www.turbotech.lk/",
       "logo": "https://www.turbotech.lk/logo.svg",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+94 74 302 2963",
+        "telephone": "+94 77 533 1215",
         "contactType": "customer service",
         "availableLanguage": ["English"]
       },
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "8/A, Kahathuduwa",
-        "addressLocality": "Polgasowita",
-        "addressCountry": "LK",
-        "postalCode": "10320"
+        "streetAddress": "No.158/6C, Kaduwela Road",
+        "addressLocality": "Athurugiriya",
+        "addressCountry": "LK"
       }
     }`,
   };
@@ -93,7 +92,7 @@ function addWebsiteJsonLd() {
       "name": "TurboTech",
       "alternateName": "TurboTech",
       "url": "https://www.turbotech.lk/",
-      "description": "TurboTech supplies high-quality power tools and provides custom lorry body design and manufacturing solutions.",
+      "description": "TurboTech supplies high-quality power tools, industrial equipment, and provides professional interior design and custom build solutions.",
       "publisher": {
         "@type": "Organization",
         "name": "TurboTech",
@@ -126,7 +125,7 @@ export default function RootLayout({
         <meta property="og:site_name" content="TurboTech" />
         <meta property="og:url" content="https://www.turbotech.lk/" />
         <meta property="og:title" content="TurboTech - Quality Machinery & Custom Engineering" />
-        <meta property="og:description" content="Powering productivity with quality machinery and industrial tools. 25+ years of excellence in machinery importing, distribution, and custom engineering." />
+        <meta property="og:description" content="Powering productivity with quality machinery, industrial tools, and professional interior design. 25+ years of excellence in machinery importing, distribution, and custom design services." />
         <meta property="og:image" content="https://www.turbotech.lk/TurboTech.svg" />
         <link rel="canonical" href="https://www.turbotech.lk/" />
         <link rel="icon" href="/favicon.ico?v=2" />
@@ -155,21 +154,20 @@ export default function RootLayout({
       name: "TurboTech",
       alternateName: "TurboTech",
       description:
-        "TurboTech is a trusted importer and distributor of high-quality power tools and industrial equipment, also specializing in custom lorry body design and manufacturing.",
+        "TurboTech is a trusted importer and distributor of high-quality power tools and industrial equipment, also specializing in professional interior design and custom build solutions.",
       url: "https://www.turbotech.lk/",
       logo: "https://www.turbotech.lk/TurboTech.svg", // update if needed
       contactPoint: {
         "@type": "ContactPoint",
-        telephone: "+94 74 302 2963",
+        "telephone": "+94 77 533 1215",
         contactType: "customer service",
         availableLanguage: ["English"],
       },
       address: {
         "@type": "PostalAddress",
-        streetAddress: "8/A, Kahathuduwa",
-        addressLocality: "Polgasowita",
-        addressCountry: "LK",
-        postalCode: "10320"
+        "streetAddress": "No.158/6C, Kaduwela Road",
+        "addressLocality": "Athurugiriya",
+        "addressCountry": "LK"
       },
       // optional (add later if available)
       // sameAs: [

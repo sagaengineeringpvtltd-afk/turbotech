@@ -9,18 +9,18 @@ import "swiper/css/pagination";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TurboTech News | Latest Updates & Projects",
+  title: "TurboTech News | Latest Updates, Projects & Interior Design",
 
   description:
-    "Stay updated with the latest news, projects, and announcements from TurboTech including custom lorry body designs, engineering solutions, and industry updates.",
+    "Stay updated with the latest news, projects, and announcements from TurboTech including interior design solutions, power tools innovations, and industry updates.",
 
   keywords:
-    "TurboTech news, lorry body projects Sri Lanka, engineering news Sri Lanka, industrial updates, power tools news, TurboTech updates",
+    "TurboTech news, interior design Sri Lanka, power tools news, commercial design projects, TurboTech projects, industrial updates, TurboTech innovations",
 
   openGraph: {
-    title: "TurboTech Latest News",
+    title: "TurboTech Latest News & Projects",
     description:
-      "Explore the latest updates, completed projects, and engineering innovations from TurboTech.",
+      "Explore the latest updates, completed interior design projects, and innovations from TurboTech.",
     url: "https://www.turbotech.lk/#news",
     siteName: "TurboTech",
     type: "website",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "TurboTech News",
+    title: "TurboTech News & Projects",
     description:
-      "Latest updates and project highlights from TurboTech.",
+      "Latest interior design projects and product updates from TurboTech.",
   },
 
   alternates: {

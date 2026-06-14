@@ -4,18 +4,18 @@ import Image from 'next/image'
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TurboTech | About Us - Power Tools & Engineering Solutions",
+  title: "TurboTech | About Us - Power Tools, Industrial Equipment & Interior Design",
   
   description:
-    "Learn about TurboTech, a trusted supplier of power tools and industrial equipment in Sri Lanka, also specializing in custom lorry body design and manufacturing.",
+    "Learn about TurboTech, a trusted supplier of power tools and industrial equipment in Sri Lanka, also specializing in professional interior design and build solutions.",
 
   keywords:
-    "about TurboTech, power tools Sri Lanka, industrial equipment suppliers, lorry body manufacturing Sri Lanka, engineering solutions",
+    "about TurboTech, power tools Sri Lanka, industrial equipment suppliers, interior design Sri Lanka, commercial design solutions, interior build services",
 
   openGraph: {
     title: "About TurboTech",
     description:
-      "TurboTech delivers reliable power tools and customized lorry body solutions for industrial and commercial needs.",
+      "TurboTech delivers reliable power tools and professional interior design solutions for industrial and commercial needs.",
     url: "https://www.turbotech.lk/#about",
     siteName: "TurboTech",
     type: "website",
