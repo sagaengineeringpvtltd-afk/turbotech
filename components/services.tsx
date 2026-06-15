@@ -45,7 +45,7 @@ const services: ServiceCard[] = [
     description:
       "Our Interior design & build services for industrial and commercial projects. In prominent industrial commercial projects, and brand mable solutions design, and solution and creative professional use.",
     smallImages: [
-      { src: "/Interior01.jpeg", alt: "Industrial interior design project" },
+      { src: "/Interior01.webp", alt: "Industrial interior design project" },
       { src: "/Interior02.jpeg", alt: "Commercial interior build" },
     ],
     largeImages: [
@@ -63,8 +63,8 @@ const services: ServiceCard[] = [
       { src: "/power tool02.jpg", alt: "Industrial power tool in use" },
     ],
     largeImages: [
-      { src: "/power tool04.jpeg", alt: "Power tool distribution showcase" },
-      { src: "/power tool03.jpg", alt: "Power tools — drills, saws and more from TurboTech" },
+      { src: "/power tool04.webp", alt: "Power tool distribution showcase" },
+      { src: "/power tool03.webp", alt: "Power tools — drills, saws and more from TurboTech" },
     ],
   },
 ];
