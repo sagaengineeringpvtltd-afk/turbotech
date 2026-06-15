@@ -9,18 +9,18 @@ import "swiper/css/pagination";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TurboTech News | Latest Updates & Projects",
+  title: "TurboTech News | Latest Updates, Projects & Interior Design",
 
   description:
-    "Stay updated with the latest news, projects, and announcements from TurboTech including custom lorry body designs, engineering solutions, and industry updates.",
+    "Stay updated with the latest news, projects, and announcements from TurboTech including interior design solutions, power tools innovations, and industry updates.",
 
   keywords:
-    "TurboTech news, lorry body projects Sri Lanka, engineering news Sri Lanka, industrial updates, power tools news, TurboTech updates",
+    "TurboTech news, interior design Sri Lanka, power tools news, commercial design projects, TurboTech projects, industrial updates, TurboTech innovations",
 
   openGraph: {
-    title: "TurboTech Latest News",
+    title: "TurboTech Latest News & Projects",
     description:
-      "Explore the latest updates, completed projects, and engineering innovations from TurboTech.",
+      "Explore the latest updates, completed interior design projects, and innovations from TurboTech.",
     url: "https://www.turbotech.lk/#news",
     siteName: "TurboTech",
     type: "website",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "TurboTech News",
+    title: "TurboTech News & Projects",
     description:
-      "Latest updates and project highlights from TurboTech.",
+      "Latest interior design projects and product updates from TurboTech.",
   },
 
   alternates: {
@@ -59,6 +59,21 @@ const newsData: NewsItem[] = [
 
     `
   },
+
+  {
+    title: "නවීන හා ක්‍රියාකාරී අභ්‍යන්තර සැලසුම් විසඳුම්! 🏢✨",
+    image: "/news/interior-design.jpeg",
+    content: `ඔබගේ කාර්යාලය, ව්‍යාපාරික ස්ථානය හෝ කර්මාන්තශාලා පරිසරය වඩාත් ආකර්ෂණීය හා කාර්යක්ෂම කිරීමට අවශ්‍යද?
+
+✅ නවීන Interior Design & Build Solutions
+✅ ව්‍යාපාරික සහ කාර්මික ව්‍යාපෘති සඳහා විශේෂිත සැලසුම්
+✅ සැලසුමේ සිට නිමාව දක්වා සම්පූර්ණ සේවාව
+✅ ගුණාත්මක නිමාව සහ වෘත්තීයමය ක්‍රියාත්මක කිරීම
+
+ඔබගේ අවශ්‍යතාවයට ගැලපෙන අභ්‍යන්තර සැලසුම් විසඳුම් සඳහා අදම අප සමඟ සම්බන්ධ වන්න. 👇`
+  },
+
+
 
 ];
 

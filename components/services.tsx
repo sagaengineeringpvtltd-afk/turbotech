@@ -4,15 +4,15 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TurboTech Services | Power Tools & Lorry Body Solutions",
+  title: "TurboTech Services | Power Tools & Industrial Solutions",
   description:
-    "Explore TurboTech services including power tools importing, distribution, custom lorry body design, and repair & modification solutions in Sri Lanka.",
+    "Explore TurboTech services including power tools importing, distribution, interior design, and repair & modification solutions in Sri Lanka.",
   keywords:
-    "TurboTech services, power tools importing Sri Lanka, tool distribution, lorry body design Sri Lanka, lorry body repair, industrial tools supplier Sri Lanka",
+    "TurboTech services, power tools importing Sri Lanka, tool distribution, interior design Sri Lanka, industrial tools supplier Sri Lanka, repair and modification services",
   openGraph: {
     title: "TurboTech Core Services",
     description:
-      "TurboTech offers power tools importing, distribution, and custom lorry body engineering solutions tailored for industrial needs.",
+      "TurboTech offers power tools importing, distribution, and interior design solutions tailored for industrial and commercial needs.",
     url: "https://www.turbotech.lk/#services",
     siteName: "TurboTech",
     type: "website",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "TurboTech Services",
     description:
-      "Reliable power tools and custom lorry body solutions for businesses in Sri Lanka.",
+      "Reliable power tools and interior design solutions for businesses in Sri Lanka.",
   },
   alternates: {
     canonical: "https://www.turbotech.lk/#services",
@@ -45,7 +45,7 @@ const services: ServiceCard[] = [
     description:
       "Our Interior design & build services for industrial and commercial projects. In prominent industrial commercial projects, and brand mable solutions design, and solution and creative professional use.",
     smallImages: [
-      { src: "/Interior01.jpeg", alt: "Industrial interior design project" },
+      { src: "/Interior01.webp", alt: "Industrial interior design project" },
       { src: "/Interior02.jpeg", alt: "Commercial interior build" },
     ],
     largeImages: [
@@ -63,8 +63,8 @@ const services: ServiceCard[] = [
       { src: "/power tool02.jpg", alt: "Industrial power tool in use" },
     ],
     largeImages: [
-      { src: "/power tool04.jpeg", alt: "Power tool distribution showcase" },
-      { src: "/power tool03.jpg", alt: "Power tools — drills, saws and more from TurboTech" },
+      { src: "/power tool04.webp", alt: "Power tool distribution showcase" },
+      { src: "/power tool03.webp", alt: "Power tools — drills, saws and more from TurboTech" },
     ],
   },
 ];
@@ -140,24 +140,24 @@ export default function Services() {
       <div className="container mx-auto px-2 md:px-6">
 
         {/* Header Row */}
-        <div className="flex flex-col md:flex-row justify-between items-start mb-10 md:mb-14 gap-6">
-          <div className="md:w-1/2">
-            <p className="text-gray-500 max-w-sm leading-relaxed text-sm md:text-base">
-              At TurboTech, we are committed to delivering engineering
-              solutions that help businesses improve efficiency and
-              productivity.
-            </p>
-          </div>
+<div className="flex flex-col md:flex-row justify-between items-start mb-10 md:mb-14 gap-6">
+  <div className="md:w-1/2 order-2 md:order-1">
+    <p className="text-gray-500 max-w-sm leading-relaxed text-sm md:text-base max-md:text-justify">
+      At TurboTech, we are committed to delivering engineering
+      solutions that help businesses improve efficiency and
+      productivity.
+    </p>
+  </div>
 
-          <div className="md:w-1/2 text-left md:text-right">
-            <span className="inline-block bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest animate-soft-bounce">
-              # Core Services
-            </span>
-            <h2 className="text-3xl sm:text-4xl font-extrabold mt-3 text-gray-900">
-              Our Core Services
-            </h2>
-          </div>
-        </div>
+  <div className="md:w-1/2 text-left md:text-right order-1 md:order-2">
+    <span className="inline-block bg-[#B6FF00] text-black px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest animate-soft-bounce">
+      # Core Services
+    </span>
+    <h2 className="text-3xl sm:text-4xl font-extrabold mt-3 text-gray-900">
+      Our Core Services
+    </h2>
+  </div>
+</div>
 
         {/* Cards Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">

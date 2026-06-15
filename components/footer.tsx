@@ -10,8 +10,8 @@ export default function Footer() {
          <div>
   <Image src="/TurboTech.svg" alt="PD Engineering" width={150} height={150} />
 
-  <p className="text-sm text-gray-400 mt-4 leading-relaxed max-w-2/4">
-    Delivering high-quality machinery, industrial solutions, and custom lorry body designs across Sri Lanka with reliability and precision.
+  <p className="text-sm text-gray-400 mt-4 leading-relaxed max-w-2/4 max-md:max-w-full max-md:text-justify">
+    Delivering high-quality machinery, industrial solutions, and interior design services across Sri Lanka with reliability and precision.
   </p>
 </div>
           <div>
