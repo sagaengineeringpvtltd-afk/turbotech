@@ -44,7 +44,7 @@ export default function About() {
               <span className="text-[#B6FF00]">Tech</span>
             </h2>
 
-            <div className="space-y-6 text-gray-600 leading-relaxed max-md:text-justify">
+            <div className="space-y-6 text-gray-600 leading-relaxed text-justify">
               <p>
                 TurboTech is a trusted importer and distributor of high-quality machineries, accessories and industrial tools. TurboTech also provide comprehensive engineering solutions for both industrial & commercial projects from design stage till completion.
               </p>
@@ -53,12 +53,12 @@ export default function About() {
               </p>
             </div>
           </div>
-            <div className="relative w-full md:w-[52%] h-[450px] rounded-3xl overflow-hidden shadow-2xl ">
+            <div className="relative w-full md:w-[52%] h-[450px] max-md:h-[300px] rounded-3xl overflow-hidden shadow-2xl ">
               <Image
-                src="/About TurboTech.svg"
+                src="/About TurboTech.webp"
                 alt="TurboTech machinery and engineering"
                 fill
-                className="object-cover"
+                className="object-cover "
                 priority
               />
             </div>
@@ -78,7 +78,7 @@ export default function About() {
                   <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
                 </svg>
               </div>
-              <p className="text-gray-400 leading-relaxed max-md:text-justify">
+              <p className="text-gray-400 leading-relaxed text-justify">
                 To become a leading and trusted provider of power tools and customized engineering solutions through quality, innovation, and reliability.
               </p>
             </div>

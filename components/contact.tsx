@@ -250,7 +250,7 @@ If you are looking for reliable machinery, industrial tools, or professional int
             </div>
 
             {/* Additional Text instead of map */}
-            <p className="text-gray-300 text-sm max-md:text-justify">
+            <p className="text-gray-300 text-sm text-justify">
               Our team is always ready to assist you with inquiries about our machinery, industrial solutions, and interior design services. Reach out to us, and we will respond promptly to support your business needs.
             </p>
           </div>

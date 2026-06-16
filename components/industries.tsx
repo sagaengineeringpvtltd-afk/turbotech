@@ -37,7 +37,7 @@ export default function Industries() {
     { name: 'Importing Machines, Materials and Accessories', icon: '📦' },
     { name: 'Manufacturing', icon: '🏭' },
     { name: 'Maintenance', icon: '🛠️' },
-    { name: 'Interior design and build services', icon: '🛋️' },
+    { name: 'Interior Design and Build Services', icon: '🛋️' },
     { name: 'Logistics & Transportation', icon: '🚛' },
   ]
 
